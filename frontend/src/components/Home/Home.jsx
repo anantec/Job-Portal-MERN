@@ -5,7 +5,6 @@ import { Navigate } from "react-router-dom";
 import HeroSection from "./HeroSection";
 import HowItWorks from "./HowItWorks";
 import PopularCategories from "./PopularCategories";
-import PopularCompanies from "./PopularCompanies";
 
 const Home = () => {
   const { isAuthorized } = useContext(Context);
@@ -18,7 +17,7 @@ const Home = () => {
         <HeroSection />
         <HowItWorks />
         <PopularCategories />
-        <PopularCompanies />
+       
       </section>
     </>
   );
